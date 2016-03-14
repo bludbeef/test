@@ -1,0 +1,117 @@
+/* set padding for iOS7 status bar */
+.ua-ios-7 .ui-page, .ua-ios-8, .ui-page {
+    /*margin-top: 43px !important; */
+    padding-top: 0;
+}
+
+.ua-ios-7 .ui-header, .ua-ios-8 .ui-header {
+   padding-top: 0 !important;
+}
+.eventimage{
+    width: 100%;
+}
+
+.eventform button[type=submit] {
+ -webkit-appearance: none; -moz-appearance: none;
+ display: block;
+ margin: 1.5em 0;
+ font-size: 1em; line-height: 2.5em;
+ color: #333;
+ font-weight: bold;
+ height: 2.5em; width: 100%;
+ background: #fdfdfd; background: -moz-linear-gradient(top, #fdfdfd 0%, #bebebe 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#bebebe)); background: -webkit-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -o-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: -ms-linear-gradient(top, #fdfdfd 0%,#bebebe 100%); background: linear-gradient(to bottom, #fdfdfd 0%,#bebebe 100%);
+ border: 1px solid #bbb;
+ -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;
+}
+#RegisterPage.ui-input{
+    width: 100px;
+}
+
+.ui-page .ui-header {
+    background: #FF6347 !important;
+    text-shadow: none;
+    color: #FFFFFF !important;
+    border-color: #FF6347;
+}
+.ui-header .ui-btn .ui-active{
+    background: #FFFFFF !important;
+    border-color: #FF6347 !important;
+    border-width: : .1em;
+    color: #FF6347 !important;
+    text-shadow: none;
+}
+#ProfilePage .ui-header .ui-btn, #ListPage .ui-header .ui-btn, #FriendsPage .ui-header .ui-btn {
+    background: #FFFFFF;
+    color: #FF6347;
+    border-color: #FF6347;
+    text-shadow: none;
+}
+
+.ui-footer .ui-navbar .ui-btn{
+    background:#FF6347; !important;
+    border-color:#FF7D66; !important;
+    color: #FFFFFF !important;
+    text-shadow: none;
+    height: 42px;
+    border-width: : .1em;
+}
+
+#LandingPage .ui-footer .ui-navbar .ui-btn{
+    background:#FF6347; !important;
+    border-color:#FF7D66; !important;
+    color: #FFFFFF !important;
+    text-shadow: none;
+    height: 60px;
+    border-width: : .1em;
+}
+#RegisterPage .ui-corner-all {
+    border-radius: 0 !important;
+    border:2px solid white;
+}
+
+.ui-footer .ui-navbar .ui-btn .ui-active{
+    background:#FF7D66; !important;
+    border-color:#FF7D66; !important;
+    color: #bfbfbf !important;
+    text-shadow: none;
+    border-width: : .1em;
+}
+.ui-footer{
+    border-color: #FF6347; !important;
+    background: #FF6347 !important;
+}
+.ui-grid-solo{
+    margin-left: 20%;
+}
+
+.profilePhoto{
+    width:130px;
+    height:130px;
+    border-radius:65px;
+    z-index: 10;
+    position: absolute;
+    left:20%;
+    margin-top: 20px;
+}
+.coverPhoto{
+    margin: 0px;
+    padding: 0px;
+}
+.ui-content {
+    margin: 0px;
+    padding: 0px;
+}
+.ui-content.ui-btn{
+    
+}
+.ui-corner-all {
+    border-radius: 0 !important;
+    border:2px solid white;
+}
+
+.ui-popup-container {
+   width:100%;
+}
+.ui-popup-container.ui-btn{
+    width: 30px;
+}
